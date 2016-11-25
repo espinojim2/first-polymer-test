@@ -1,0 +1,27 @@
+<!-- import latest release version of all components from polygit -->
+<link rel="import" href="components/polymer/polymer.html">
+
+<dom-module id="icon-toggle" >
+
+  <template>
+
+    <style>
+      /* local DOM styles go here */
+      h1{ color:blue; }
+    </style>
+
+    <!-- local DOM goes here -->
+    <h1 onclick='alertt()'>Hello World</h1>
+  </template>
+
+  <script>
+  Polymer({
+    is: 'icon-toggle',
+  });
+
+  function alertt(){
+    alert('fgf');
+  }
+  </script>
+
+</dom-module>
